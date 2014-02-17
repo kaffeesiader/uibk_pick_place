@@ -1,0 +1,9 @@
+<launch>
+
+  <include file="$(find uibk_moveit_config)/launch/demo.launch" />
+    
+  <rosparam command="load" file="$(find uibk_moveit_config)/config/kinematics.yaml"/>
+    
+  <!-- <node name="test_pick_place" pkg="uibk_pick_place" type="test_pick_place" ></node> -->
+  
+</launch>

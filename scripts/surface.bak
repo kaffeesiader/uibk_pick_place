@@ -1,0 +1,31 @@
+header: 
+  seq: 4
+  stamp: 
+    secs: 1385661874
+    nsecs: 456531615
+  frame_id: /world_link
+id: table_surface
+type: 
+  key: ''
+  db: ''
+primitives: 
+  - 
+    type: 1
+    dimensions: [0.9, 2.3, 0.1]
+primitive_poses: 
+  - 
+    position: 
+      x: 0.371
+      y: 0.81
+      z: 0.05
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+meshes: []
+mesh_poses: []
+planes: []
+plane_poses: []
+operation: 0
+---
