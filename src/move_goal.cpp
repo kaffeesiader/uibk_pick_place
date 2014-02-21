@@ -13,6 +13,7 @@
 #include <Eigen/Geometry>
 
 using namespace std;
+using namespace ros;
 
 /**
  * Moves the end effector to given pose.
