@@ -55,7 +55,7 @@ public:
 
 	TestPickPlace() :
 			arm_("right"),
-			planning_group_name_(arm_ + "Arm"),
+			planning_group_name_(arm_ + "_arm"),
 			auto_reset_(false),
 			auto_reset_sec_(4),
 			pick_place_count_(0)

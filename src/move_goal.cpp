@@ -55,7 +55,7 @@ int main(int argc, char **argv) {
 	// try to extract the planning group name from parameters
 	// use 'rightArm' as default
 	// possible values 'rightArm' and 'leftArm'
-	string planning_group_name = "rightArm";
+	string planning_group_name = "right_arm";
 	if(argc > 7) {
 		planning_group_name = argv[7];
 	}

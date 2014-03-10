@@ -30,9 +30,9 @@ using namespace std;
 namespace uibk_pick_place {
 
 static const string ROBOT_DESCRIPTION="robot_description";
-static const string COLLISION_TOPIC = "/collision_object";
-static const string ATTACHED_COLLISION_TOPIC = "/attached_collision_object";
-static const string RVIZ_MARKER_TOPIC = "/end_effector_marker";
+static const string COLLISION_TOPIC = "collision_object";
+static const string ATTACHED_COLLISION_TOPIC = "attached_collision_object";
+static const string RVIZ_MARKER_TOPIC = "end_effector_marker";
 
 enum rviz_colors { RED, GREEN, BLUE, GREY, WHITE, ORANGE };
 
