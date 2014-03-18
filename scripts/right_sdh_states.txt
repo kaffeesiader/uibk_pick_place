@@ -1,0 +1,121 @@
+header: 
+  seq: 8523
+  stamp: 
+    secs: 1393409520
+    nsecs: 285262172
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8524
+  stamp: 
+    secs: 1393409520
+    nsecs: 485271940
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8525
+  stamp: 
+    secs: 1393409520
+    nsecs: 685283996
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8526
+  stamp: 
+    secs: 1393409520
+    nsecs: 885270131
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8527
+  stamp: 
+    secs: 1393409521
+    nsecs: 85276801
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8528
+  stamp: 
+    secs: 1393409521
+    nsecs: 285284458
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8529
+  stamp: 
+    secs: 1393409521
+    nsecs: 485273635
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8530
+  stamp: 
+    secs: 1393409521
+    nsecs: 685270640
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8531
+  stamp: 
+    secs: 1393409521
+    nsecs: 885288404
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8532
+  stamp: 
+    secs: 1393409522
+    nsecs: 85277857
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+header: 
+  seq: 8533
+  stamp: 
+    secs: 1393409522
+    nsecs: 285276567
+  frame_id: ''
+name: ['right_sdh_knuckle_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint']
+position: [0.00016293856128165397, -0.8099827217095354, 0.7891281733591377, -1.0940555190188304, 0.7957323466966884, -0.9404938581797876, 0.7740305136599349]
+velocity: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+effort: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---

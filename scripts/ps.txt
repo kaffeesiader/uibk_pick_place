@@ -1,0 +1,397 @@
+name: (noname)+
+robot_state: 
+  joint_state: 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 0
+        nsecs: 0
+      frame_id: /world_link
+    name: ['left_arm_0_joint', 'left_arm_1_joint', 'left_arm_2_joint', 'left_arm_3_joint', 'left_arm_4_joint', 'left_arm_5_joint', 'left_arm_6_joint', 'right_arm_0_joint', 'right_arm_1_joint', 'right_arm_2_joint', 'right_arm_3_joint', 'right_arm_4_joint', 'right_arm_5_joint', 'right_arm_6_joint', 'right_sdh_finger_21_joint', 'right_sdh_finger_22_joint', 'right_sdh_finger_23_joint', 'right_sdh_knuckle_joint', 'right_sdh_finger_12_joint', 'right_sdh_finger_13_joint', 'right_sdh_thumb_2_joint', 'right_sdh_thumb_3_joint']
+    position: [-0.35187238454818726, -0.349065899848938, -0.1725062131881714, -0.522191047668457, -0.0005882691475562751, -0.0021658928599208593, 6.258488269850204e-07, 2.9202094078063965, -1.79509437084198, -2.2961513996124268, 1.3970621824264526, 0.4785384237766266, -0.9233008027076721, 1.353615403175354, 8.940696716308594e-07, -2.2021124550519744e-06, -0.015963835641741753, 8.940696716308594e-07, -3.9115553818191984e-07, -0.0008794408640824258, 0.04277029260993004, 4.757195256388513e-06]
+    velocity: []
+    effort: []
+  multi_dof_joint_state: 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 0
+        nsecs: 0
+      frame_id: /world_link
+    joint_names: []
+    transforms: []
+    twist: []
+    wrench: []
+  attached_collision_objects: []
+  is_diff: False
+robot_model_name: uibk_robot
+fixed_frame_transforms: 
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 0
+        nsecs: 0
+      frame_id: /world_link
+    child_frame_id: /world_link
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+allowed_collision_matrix: 
+  entry_names: ['left_arm_1_link', 'left_arm_2_link', 'left_arm_3_link', 'left_arm_4_link', 'left_arm_5_link', 'left_arm_6_link', 'left_arm_7_link', 'left_arm_base_link', 'leg_0_link', 'leg_1_link', 'leg_2_link', 'leg_3_link', 'right_arm_1_link', 'right_arm_2_link', 'right_arm_3_link', 'right_arm_4_link', 'right_arm_5_link', 'right_arm_6_link', 'right_arm_7_link', 'right_arm_base_link', 'right_sdh_connector_link', 'right_sdh_finger_11_link', 'right_sdh_finger_12_link', 'right_sdh_finger_13_link', 'right_sdh_finger_21_link', 'right_sdh_finger_22_link', 'right_sdh_finger_23_link', 'right_sdh_palm_link', 'right_sdh_thumb_1_link', 'right_sdh_thumb_2_link', 'right_sdh_thumb_3_link', 'table_plate_link', 'table_surface_link', 'torso_link', 'world_link']
+  entry_values: 
+    - 
+      enabled: [False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True]
+    - 
+      enabled: [True, False, True, False, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, True, False, True]
+    - 
+      enabled: [True, True, False, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, False, False, True]
+    - 
+      enabled: [True, False, True, False, True, True, True, True, True, True, True, True, True, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, False, False, True]
+    - 
+      enabled: [True, True, True, True, False, True, True, False, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True]
+    - 
+      enabled: [True, True, True, True, True, False, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True]
+    - 
+      enabled: [True, True, True, True, True, True, False, True, True, True, True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True]
+    - 
+      enabled: [True, True, True, True, False, True, True, False, True, True, True, True, True, True, True, True, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, True]
+    - 
+      enabled: [True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, False, True, True, False, False, False, False, False, False, False, False, False, False, True, True, True, True]
+    - 
+      enabled: [True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+    - 
+      enabled: [True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+    - 
+      enabled: [True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+    - 
+      enabled: [True, True, True, True, False, False, False, True, True, True, True, True, False, True, True, True, True, True, True, True, True, False, False, False, False, False, False, False, False, False, False, True, True, True, True]
+    - 
+      enabled: [True, True, True, False, False, False, False, True, True, True, True, True, True, False, True, False, True, True, True, True, True, True, True, False, True, True, False, True, True, True, False, True, True, False, True]
+    - 
+      enabled: [True, True, False, False, False, False, False, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True]
+    - 
+      enabled: [True, True, False, False, False, False, False, True, True, True, True, True, True, False, True, False, True, True, True, True, True, True, True, False, True, True, False, True, True, True, False, True, False, False, True]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, False, True, True, False, True, True, True, False, True, True, False, False, True, True, False, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False]
+    - 
+      enabled: [True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, False, True, False, False, True, False, False, False, False, False, False, False, False, False, False, True, True, True, True]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, False, True, True, True, False, False, True, True, False, False, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, False, True, False, False, False, True, False, False, False, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, False, True, False, False, True, True, False, True, True, True, False, False, False, False, False, False, False, False, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, False, False, False, True, True, True, True, False, True, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, False, False, False, True, False, True, True, False, False, False, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, False, True, False, False, True, True, False, True, False, False, False, True, True, False, False, False, False, False, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, True, True, True, False, True, True, False, True, True, True, False, True, True, False, False, True, True, False, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, True, False, False, True, False, False, True, False, True, True, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, True, True, True, True, True, True, False, True, False, False, False, False, False, False, True, True, False, True, False, False, False, False]
+    - 
+      enabled: [False, False, False, False, False, False, False, False, False, True, True, True, False, False, True, False, False, True, True, False, True, False, False, False, True, False, False, False, True, True, False, False, False, False, False]
+    - 
+      enabled: [True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, False, True, True, True]
+    - 
+      enabled: [True, True, False, False, False, False, False, True, True, True, True, True, True, True, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, False, True, True]
+    - 
+      enabled: [True, False, False, False, False, False, False, True, True, True, True, True, True, False, False, False, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, True, False, True]
+    - 
+      enabled: [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, True, False, False, False, False, False, False, False, False, False, False, False, True, True, True, False]
+  default_entry_names: []
+  default_entry_values: []
+link_padding: 
+  - 
+    link_name: left_arm_1_link
+    padding: 0.0
+  - 
+    link_name: left_arm_2_link
+    padding: 0.0
+  - 
+    link_name: left_arm_3_link
+    padding: 0.0
+  - 
+    link_name: left_arm_4_link
+    padding: 0.0
+  - 
+    link_name: left_arm_5_link
+    padding: 0.0
+  - 
+    link_name: left_arm_6_link
+    padding: 0.0
+  - 
+    link_name: left_arm_7_link
+    padding: 0.0
+  - 
+    link_name: left_arm_base_link
+    padding: 0.0
+  - 
+    link_name: leg_0_link
+    padding: 0.0
+  - 
+    link_name: leg_1_link
+    padding: 0.0
+  - 
+    link_name: leg_2_link
+    padding: 0.0
+  - 
+    link_name: leg_3_link
+    padding: 0.0
+  - 
+    link_name: right_arm_1_link
+    padding: 0.0
+  - 
+    link_name: right_arm_2_link
+    padding: 0.0
+  - 
+    link_name: right_arm_3_link
+    padding: 0.0
+  - 
+    link_name: right_arm_4_link
+    padding: 0.0
+  - 
+    link_name: right_arm_5_link
+    padding: 0.0
+  - 
+    link_name: right_arm_6_link
+    padding: 0.0
+  - 
+    link_name: right_arm_7_link
+    padding: 0.0
+  - 
+    link_name: right_arm_base_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_connector_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_finger_11_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_finger_12_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_finger_13_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_finger_21_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_finger_22_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_finger_23_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_palm_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_thumb_1_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_thumb_2_link
+    padding: 0.0
+  - 
+    link_name: right_sdh_thumb_3_link
+    padding: 0.0
+  - 
+    link_name: table_plate_link
+    padding: 0.0
+  - 
+    link_name: table_surface_link
+    padding: 0.0
+  - 
+    link_name: torso_link
+    padding: 0.0
+  - 
+    link_name: world_link
+    padding: 0.0
+link_scale: 
+  - 
+    link_name: left_arm_1_link
+    scale: 1.0
+  - 
+    link_name: left_arm_2_link
+    scale: 1.0
+  - 
+    link_name: left_arm_3_link
+    scale: 1.0
+  - 
+    link_name: left_arm_4_link
+    scale: 1.0
+  - 
+    link_name: left_arm_5_link
+    scale: 1.0
+  - 
+    link_name: left_arm_6_link
+    scale: 1.0
+  - 
+    link_name: left_arm_7_link
+    scale: 1.0
+  - 
+    link_name: left_arm_base_link
+    scale: 1.0
+  - 
+    link_name: leg_0_link
+    scale: 1.0
+  - 
+    link_name: leg_1_link
+    scale: 1.0
+  - 
+    link_name: leg_2_link
+    scale: 1.0
+  - 
+    link_name: leg_3_link
+    scale: 1.0
+  - 
+    link_name: right_arm_1_link
+    scale: 1.0
+  - 
+    link_name: right_arm_2_link
+    scale: 1.0
+  - 
+    link_name: right_arm_3_link
+    scale: 1.0
+  - 
+    link_name: right_arm_4_link
+    scale: 1.0
+  - 
+    link_name: right_arm_5_link
+    scale: 1.0
+  - 
+    link_name: right_arm_6_link
+    scale: 1.0
+  - 
+    link_name: right_arm_7_link
+    scale: 1.0
+  - 
+    link_name: right_arm_base_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_connector_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_finger_11_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_finger_12_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_finger_13_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_finger_21_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_finger_22_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_finger_23_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_palm_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_thumb_1_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_thumb_2_link
+    scale: 1.0
+  - 
+    link_name: right_sdh_thumb_3_link
+    scale: 1.0
+  - 
+    link_name: table_plate_link
+    scale: 1.0
+  - 
+    link_name: table_surface_link
+    scale: 1.0
+  - 
+    link_name: torso_link
+    scale: 1.0
+  - 
+    link_name: world_link
+    scale: 1.0
+object_colors: []
+world: 
+  collision_objects: 
+    - 
+      header: 
+        seq: 0
+        stamp: 
+          secs: 0
+          nsecs: 0
+        frame_id: /world_link
+      id: obstacle
+      type: 
+        key: ''
+        db: ''
+      primitives: 
+        - 
+          type: 1
+          dimensions: [0.5, 0.1, 0.3]
+      primitive_poses: 
+        - 
+          position: 
+            x: 0.25
+            y: 0.25
+            z: 0.25
+          orientation: 
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 1.0
+      meshes: []
+      mesh_poses: []
+      planes: []
+      plane_poses: []
+      operation: 0
+  octomap: 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 0
+        nsecs: 0
+      frame_id: /world_link
+    origin: 
+      position: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 0.0
+    octomap: 
+      header: 
+        seq: 0
+        stamp: 
+          secs: 0
+          nsecs: 0
+        frame_id: ''
+      binary: False
+      id: ''
+      resolution: 0.0
+      data: []
+is_diff: False
+---
